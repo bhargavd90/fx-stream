@@ -1,5 +1,10 @@
 # fx-stream
 
+1) This app shows the streaming fx-rates data and its status
+2) We could also eliminate records based on the time_diff and show only the active ones
+3) The stream of data is mimiced by pushing data from a dataframe to a kafka cluster with a time interval of 0.2 seconds
+
+
 **docker_compose.yml** : This runs the kafka cluster to create, push, fetch data from the topics
 
 **producer.py** : This loads the data from the source, in this case a csv file and pushes the data in to the kafka topic
