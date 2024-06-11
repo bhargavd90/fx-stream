@@ -1,0 +1,4 @@
+streamlit==1.35.0
+pandas==2.0.3
+kafka-python==2.0.2
+apache-flink==1.19.0
