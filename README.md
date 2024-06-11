@@ -7,3 +7,6 @@
 **consumer.py** : This runs a Flink cluster to fetch the data from the kafka topic, do necessary processing on the streaming data and pushes the Sink data to a different kafka topic
 
 **app.py** : This runs the streamlit app to display the streaming fx-rates data from the Sink kafka topic
+
+
+<img width="1154" alt="Screenshot 2024-06-11 at 6 18 45 PM" src="https://github.com/bhargavd90/fx-stream/assets/63107204/de328215-8974-4e05-8090-e42ffab7a7cb">
